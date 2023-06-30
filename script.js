@@ -36,10 +36,10 @@ function rot13(encodedStr) {
   // Only change code below this line
 
 	for (let index = 0; index < encodedStr.length; index++) {
-		if (lookup[encodedStr[index]]===undefined) {
-				decodedArr.push(encodedStrencodedStr[index])
+		if (lookup[str[index]]===undefined) {
+				decodedArr.push(str[index])
 		} else {
-				decodedArr.push(lookup[encodedStr[index]])
+				decodedArr.push(lookup[str[index]])
 		}
 	}
 
