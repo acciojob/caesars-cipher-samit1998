@@ -35,7 +35,7 @@ function rot13(encodedStr) {
   let decodedArr = []; // Your Result goes here
   // Only change code below this line
 
-	for (let index = 0; index < encodedStr.length; index++) {
+	for (let index = 0; index < str.length; index++) {
 		if (lookup[str[index]]===undefined) {
 				decodedArr.push(str[index])
 		} else {
